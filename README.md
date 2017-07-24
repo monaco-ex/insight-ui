@@ -1,6 +1,6 @@
 # Insight UI
 
-A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/bitpay/insight-api).
+A Monacoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/monacore-node) using the [Insight API](https://github.com/bitpay/insight-api).
 
 ## Quick Start
 
@@ -11,12 +11,12 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node
-bitcore-node create mynode
+npm install -g monacore-node
+monacore-node create mynode
 cd mynode
-bitcore-node install insight-api
-bitcore-node install insight-ui
-bitcore-node start
+monacore-node install insight-api-monacoin
+monacore-node install insight-ui
+monacore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
