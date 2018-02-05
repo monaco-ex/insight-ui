@@ -1,7 +1,7 @@
 {
   "name": "insight-ui-monacoin",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the monacoin network and build your own services with it.",
-  "version": "0.4.0-pre-monacoin1",
+  "version": "0.4.0-pre-monacoin4",
   "repository": "git://github.com/bitpay/insight-ui.git",
   "contributors": [
     {
@@ -39,9 +39,9 @@
     "monacore",
     "front-end"
   ],
-  "bitcoreNode": "monacore-node",
+  "bitcoreNode": "bitcore-node",
   "insightConfig": {
-    "apiPrefix": "insight-api",
+    "apiPrefix": "insight-api-monacoin",
     "routePrefix": "insight"
   },
   "scripts": {
